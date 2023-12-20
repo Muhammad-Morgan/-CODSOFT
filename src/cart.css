@@ -1,0 +1,104 @@
+:root{
+  --danger: #bb0000;
+}
+.drop-down-cstm-btn-cart{
+    margin-block: 0;
+    border: none;
+    border-radius: 6px;
+    border: 1px solid rgb(160, 160, 160);
+    cursor: pointer;
+    padding: 0 .3rem;
+    font-size: .9rem;
+  }
+  .dps{
+    width: 70%;
+  }
+  
+  .im-fl{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    zoom: 2;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: .3rem;
+  }
+  .sell div h1{
+    color: var(--text-color);
+  }
+  .sel h4{
+    color: var(--text-color);
+    font-size: 1.2rem;
+  }
+  hr{
+    color: var(--gray-color);
+  }
+  .sel span{
+    font-size: .9rem;
+    color: var(--gray-color);
+    margin-bottom: .2rem;
+  }
+  .sel p{
+    font-size: .8rem;
+    color: var(--text-color);
+    margin-bottom: .3rem;
+  }
+  .cstm-rem{
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+    color: var(--danger);
+    transition: all .3s ease-in-out;
+    margin-top: 0;
+    margin-bottom: .3rem;
+    width: fit-content;
+  }
+  h6{
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-top: .3rem;
+    margin-bottom: .2rem;
+  }
+  .box-bg{
+    background-color: var(--navbar-color);
+    width: 100%;
+  }
+  .e-small{
+    font-size: .95rem;
+  }
+  .colo{
+    color: var(--navbar-color);
+    text-transform: uppercase;
+    font-size: .9rem;
+    padding-block: .6rem;
+  }
+  .sel{
+    width: 90%;
+    padding-left: 1rem;
+    margin-inline: auto;
+  }
+  .btns-remove-add{
+    width: 58%;
+    margin-block: .3rem;
+  }
+  .bottom-info{
+    width: 90%;
+    margin-inline: auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    /* .dps{
+      margin-bottom: .4rem;
+      width: 50%;
+    } */
+    .bottom-info{
+      width: 100%;
+      margin-inline: auto;
+    }
+    .sel{
+      width: 100%;
+      margin-inline: none;
+    }
+  }
+ 

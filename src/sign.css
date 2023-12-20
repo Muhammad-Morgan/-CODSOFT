@@ -1,0 +1,26 @@
+.login-form form h1{
+    color: var(--text-color);
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+  .login-form form label{
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-left: .3rem;
+    text-transform: uppercase;
+  }
+  .login-form form input{
+    font-size: 1.1rem;
+  }
+  .cts{
+    font-size: 1.3rem;
+    color: var(--navbar-color);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  hr{
+    color: var(--gray-color);
+  }

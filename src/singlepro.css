@@ -1,0 +1,77 @@
+:root{
+  --gray-color: #9e9e9e;
+}
+.card{
+    border: none;
+  }
+  .img-singleproduct-container{
+    border-radius: 5px;
+  }
+  .img-singleproduct-container img{
+    background-size: cover;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .4);
+    max-height: 350px;
+    width: 380px;
+    border-radius: 5px;
+  }
+  .gray-comp{
+    color: var(--gray-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .text-pro-con h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+  .text-pro-con p{
+    line-height: 2;
+    margin-bottom: 1rem;
+  }
+  .dropdown{
+    display: flex;
+  }
+  .drop-down-cstm-btn{
+    border: none;
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .4);
+    border: 1px solid var(--primary-color-1);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    padding: .4rem;
+  }
+  .drop-down-cstm-btn:hover{
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, .6);
+  }
+  .dropdown-menu{
+    width: 70%;
+    display: flex;
+    height: fit-content !important;
+    flex-direction: column;
+  }
+  .dropdown-item-cstm{
+    display: block;
+    height: fit-content;
+    cursor: pointer;
+    padding-inline: 1rem;
+  }
+  .horizon-link:hover{
+    background-color: var(--white-off);
+  }
+  .horizon-link{
+    padding: .2rem .4rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--text-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  @media screen and (min-width: 768px) {
+    .img-singleproduct-container img{
+      max-height: 400px;
+      width: 450px;
+    }
+  }

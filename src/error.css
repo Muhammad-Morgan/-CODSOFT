@@ -1,0 +1,30 @@
+.error-page{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+.error-page-h1{
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    color: var(--text-color);
+}
+.error-page-h3{
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+.error-page-p{
+    font-size: 1.3rem;
+}
+th,td{
+    font-size: 10px;
+}    
+@media screen and (min-width: 450px) {
+    th,td{
+        font-size: 12px;
+    }    
+}
+@media screen and (min-width: 550px) {
+    th,td{
+        font-size: 14px;
+    }    
+}

@@ -1,0 +1,25 @@
+.prod{
+    max-width: 1150px;
+  }
+  .nxt-btns{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+    max-width: 1150px;
+  }
+  .prev,
+  .next{
+    border: none;
+    background-color: var(--navbar-color);
+    color: var(--text-color);
+    font-size: 1.3rem;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    padding-inline: .5rem;
+  }
+  .next:hover,
+  .prev:hover{
+    background-color: var(--white-off);
+  }
+  

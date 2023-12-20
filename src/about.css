@@ -1,0 +1,31 @@
+.mx-www{
+    max-width: 780px;
+    margin-bottom: 6.5rem;
+  }
+  .mx-www h1{
+    font-weight: 900;
+    font-size: 2.3rem;
+  }
+  .fant{
+  background-color: var(--primary-color-1);
+  color: var(--navbar-color);
+  padding: .4rem .9rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, .4);
+  }
+  .fant-about{
+    margin-inline: auto;
+    width: 90%;
+    text-align: left;
+    font-size: 18px;
+    line-height: 2;
+  }
+  @media screen and (min-width: 768px) {
+    .fant-about{
+      font-size: 22px;
+    }
+    .mx-www h1{
+      font-size: 3.5rem;
+    }
+  }
+  
